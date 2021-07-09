@@ -1,0 +1,180 @@
+/* Farbe: #e7bc0e  / #efefef / #6bc1a3 / #cb91b6 / #7eb8e1 / #000 / #fff */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mr+Dafoe&display=swap');
+@font-face {
+    font-family: Santio bold;
+    src: url("../fonts/SANTIO/OTP/Santio\ Bold.otf");
+  }
+/*General styling*/  
+*{
+    margin:0;
+    padding:0;
+    font-family:Santio bold, Roboto, Mr Dafoe;
+}
+body{
+    background-image:url("../img/cleo-topper.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    
+}
+p{
+    font-size:7vh;
+    line-height:12vh;
+}
+h1{
+    font-size:35vh;
+}
+h3{
+    display:inline-block;
+    font-size:8vh;
+    padding-top:7%;
+}
+.white{ /*den ganzen weißen text weiß gemacht*/
+    color:#fff;
+}
+#dim{ /*das hintergrundbild gedimt*/
+    width:99vw;
+    height:1000vh;
+    background-color: rgba(0, 0, 0, 0.486);
+    
+}
+header{ /*stylen des headers nav+topic*/
+    height:100vh;
+}
+nav{
+    text-align:right;
+}
+nav img{
+    height:3vh;
+    margin-top:4vh;
+    
+}
+a{
+    text-decoration: none;
+    color:white;
+    padding:5% 7% 0 2%;
+    font-family:Roboto;
+    font-weight: 300;
+    font-size:3vh;
+    font-weight: bold;
+}
+nav a:hover{
+    
+    text-decoration:underline;
+    text-decoration-color: #e7bc0e;
+    
+    
+}
+h2{
+  width:50vw;
+  height:70vh;
+  font-size:12vh;  
+  
+  padding-top:15%;
+  padding-left:8%;
+}
+/*Section mit dem gelben scroll*/
+#empty{
+    height:100vh;
+}
+h4{
+    color:#e7bc0e;
+    font-family: Mr Dafoe;
+    font-size:6vh;
+    padding-left:8%;
+    padding-top:2%;
+}
+section:nth-child(2){
+    height:180vh;
+}
+section:nth-child(2) p{
+    color:#6bc1a3;
+    width:80vw;
+    padding-left:12%;
+}
+/*erste section mit den h1*/
+#yellow{
+    color:#e7bc0e;
+    padding-left:12%;padding-bottom:10%;
+
+}
+#pink{
+    color:#cb91b6;
+    padding-left:12%;padding-bottom:10%;
+}
+#green{
+    color:#6bc1a3;
+    padding-left:12%;padding-bottom:5%;
+}
+section img{
+    height:40vh;
+    margin:20% 0 3%;
+}
+/*stylen des letzten p tags*/
+article p{
+    color:#7eb8e1 ;
+    margin-left:25%;
+    margin:15% 7% 5% 25%;
+}
+/*footer*/
+footer{
+    height:435vh;
+    background-color:#000;
+}
+
+#see{
+    background-color:#efefef ;
+    height:150vh;
+    position:relative;
+    background-image:url("../img/see.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment:static;
+}
+#kids{
+    height:150vh;
+    position:relative;
+    background-image:url("../img/kid.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment:static;
+}
+/*Der schwarze part*/
+h5{
+    font-size:20vh;
+    padding:40% 5% 7% 8%;
+
+}
+footer a{ /*Donate button stylen und hover effekt*/
+    padding:2% 4%;
+    border:1px solid white;
+    font-size:8vh;
+    margin:3% 8%;
+    font-weight: bold;
+}
+footer a:hover{
+    box-shadow:0.5vh 0.5vh rgba(255, 255, 255, 0.904);
+    transition:0.5s;
+}
+/*Fußzeile*/
+/* footer article{
+    height:10vh;
+    text-align:center;
+    position:relative;
+    bottom:0;
+    color:white;
+} */
+#fußzeile{
+    text-align:center bottom;
+    padding:45% 0 2% 17%;
+    color:white;
+    font-size:2vh;
+    height:3vh;
+}
+#colored{
+    color:#6bc1a3;
+}
